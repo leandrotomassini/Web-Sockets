@@ -1,8 +1,21 @@
 {
+<<<<<<< HEAD
     "name": "web-sockets",
     "version": "1.0.0",
     "description": "![Web Sockets](https://i.imgur.com/f4li4ul.png) # Web Sockets WebSocket es una tecnología que proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP. Está diseñada para ser implementada en navegadores y servidores web, pero puede utilizarse por cualquier aplicación cliente/servidor.",
     "main": "index.js",
+=======
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^11.0.0",
+        "express": "^4.17.2",
+        "socket.io": "^4.4.1"
+    },
+    "name": "web-sockets",
+    "description": "![Web Sockets](https://i.imgur.com/f4li4ul.png) # Web Sockets WebSocket es una tecnología que proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP. Está diseñada para ser implementada en navegadores y servidores web, pero puede utilizarse por cualquier aplicación cliente/servidor.",
+    "version": "1.0.0",
+    "main": "app.js",
+>>>>>>> nuevoComienzo
     "scripts": {
         "start": "node app"
     },
@@ -10,12 +23,16 @@
         "type": "git",
         "url": "git+https://github.com/leandrotomassini/Web-Sockets.git"
     },
+<<<<<<< HEAD
     "keywords": [],
+=======
+>>>>>>> nuevoComienzo
     "author": "",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/leandrotomassini/Web-Sockets/issues"
     },
+<<<<<<< HEAD
     "homepage": "https://github.com/leandrotomassini/Web-Sockets#readme",
     "dependencies": {
         "cors": "^2.8.5",
@@ -23,4 +40,7 @@
         "express": "^4.17.2",
         "socket.io": "^4.4.1"
     }
+=======
+    "homepage": "https://github.com/leandrotomassini/Web-Sockets#readme"
+>>>>>>> nuevoComienzo
 }
