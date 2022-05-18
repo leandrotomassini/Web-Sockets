@@ -1,18 +1,20 @@
 {
-  "name": "09-socket-colas",
+  "name": "web-sockets",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Web Sockets](https://i.imgur.com/f4li4ul.png)\r # Web Sockets\r WebSocket es una tecnología que proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP. Está diseñada para ser implementada en navegadores y servidores web, pero puede utilizarse por cualquier aplicación cliente/servidor.",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrotomassini/Web-Sockets.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "socket.io": "^3.1.1"
-  }
+  "bugs": {
+    "url": "https://github.com/leandrotomassini/Web-Sockets/issues"
+  },
+  "homepage": "https://github.com/leandrotomassini/Web-Sockets#readme"
 }
